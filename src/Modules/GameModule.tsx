@@ -59,10 +59,10 @@ const GameModule = () => {
 
     const didPlayerLose = () => {
         const losingNumber = getRandomInt(0, 9);
-        console.log('random', losingNumber);
         if (losingNumber === 0) {
             return true;
-        }
+        } else 
+            return false;
     }
 
     const checkMyTurn = (id: number) => {
