@@ -57,7 +57,7 @@ const GameModule = () => {
         setGameInProgress(true);
     }
 
-    const didPlayerLose = () => {
+    const didPlayerLose = (): boolean => {
         const losingNumber = getRandomInt(0, 9);
         if (losingNumber === 0) {
             return true;
