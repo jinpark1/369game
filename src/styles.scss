@@ -1,0 +1,23 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.player {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 130px;
+  height: 70px;
+  border: 1px solid black;
+  margin: 5px;
+}
+
+.player div {
+  margin: 5px;
+}
+
+.container {
+  display:flex;
+  justify-content: center;
+}
